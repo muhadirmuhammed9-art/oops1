@@ -13,7 +13,7 @@ class Circle:
 
 radius = float(input("Enter radius: "))
 
-c1 = Circle(radius)
+c2 = Circle(radius)
 
-print("Area of circle:", round(c1.calculate_area() ))
-print("Circumference of circle:", round(c1.calculate_circumference(), 2))
+print("Area of circle:", round(c2.calculate_area() ))
+print("Circumference of circle:", round(c2.calculate_circumference(), 2))
